@@ -1,0 +1,28 @@
+version: '3'
+volumes:
+  portainer_data:
+
+services:
+  db:
+    build: ./dockerfiles/postgres/
+    restart: always
+    hostname: postgresDB
+
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - 80:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: postgres@beblue.com.br
+      PGADMIN_DEFAULT_PASSWORD: 123456
+    depends_on:
+      - db
+
+  portainer:
+    image: portainer/portainer
+    restart: always
+    ports:
+      - 9000:9000
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "portainer_data:/data portainer/portaine"

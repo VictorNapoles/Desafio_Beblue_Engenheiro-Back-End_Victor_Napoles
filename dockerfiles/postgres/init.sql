@@ -1,0 +1,2 @@
+CREATE DATABASE cashback;
+GRANT ALL PRIVILEGES ON DATABASE cashback TO postgres;
