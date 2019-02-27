@@ -6,7 +6,6 @@ services:
   db:
     build: ./dockerfiles/postgres/
     restart: always
-    hostname: postgresDB
 
   pgadmin:
     image: dpage/pgadmin4
