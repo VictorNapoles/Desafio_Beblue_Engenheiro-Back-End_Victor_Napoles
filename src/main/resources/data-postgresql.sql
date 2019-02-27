@@ -1,0 +1,66 @@
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 0, 'POP', 7);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 1, 'POP', 6);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 2, 'POP', 2);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 3, 'POP', 10);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 4, 'POP', 15);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 5, 'POP', 20);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 6, 'POP', 25);
+
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 0, 'MPB', 5);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 1, 'MPB', 10);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 2, 'MPB', 15);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 3, 'MPB', 20);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 4, 'MPB', 25);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 5, 'MPB', 30);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 6, 'MPB', 30);
+
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 0, 'CLASSIC', 3);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 1, 'CLASSIC', 5);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 2, 'CLASSIC', 8);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 3, 'CLASSIC', 13);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 4, 'CLASSIC', 18);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 5, 'CLASSIC', 25);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 6, 'CLASSIC', 35);
+
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 0, 'ROCK', 10);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 1, 'ROCK', 15);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 2, 'ROCK', 15);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 3, 'ROCK', 15);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 4, 'ROCK', 20);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 5, 'ROCK', 40);
+INSERT INTO public.cashbacks(id, day, genre, percentage) VALUES (nextval('public."cashbacks_id_seq"'), 6, 'ROCK', 40);
+
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Michael Jackson', 'POP', 'Got to Be There', 15.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Michael Jackson', 'POP', 'Ben', 22.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Michael Jackson', 'POP', 'Music & Me', 28.30);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Michael Jackson', 'POP', 'Thriller', 28.30);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Michael Jackson', 'POP', 'Bad', 27.80);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Michael Jackson', 'POP', 'Invincible', 19.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Lady Gaga', 'POP', 'The Fame', 10.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Lady Gaga', 'POP', 'Born This Way', 12.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Lady Gaga', 'POP', 'ARTPOP', 15.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Lady Gaga', 'POP', 'Cheek to Cheek', 19.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Lady Gaga', 'POP', 'Joanne', 24.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'The Beatles', 'ROCK', 'Please Please Me', 30.10);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'The Beatles', 'ROCK', 'With the Beatles', 32.10);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'The Beatles', 'ROCK', '1964	A Hard Days Night', 38.10);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'The Beatles', 'ROCK', 'Beatles for Sale', 35.10);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Pink Floyd', 'ROCK', 'The Piper at the Gates of Dawn', 25.10);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Pink Floyd', 'ROCK', 'A Saucerful of Secrets', 35.10);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Pink Floyd', 'ROCK', 'Ummagumma', 15.10);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Djavan', 'MPB', 'A Voz, o Violão, a Música de Djavan', 25.40);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Djavan', 'MPB', 'Djavan', 13.70);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Djavan', 'MPB', 'Alumbramento', 29.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Djavan', 'MPB', 'Seduzir', 29.50);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Milton Nascimento', 'MPB', 'Travessia', 28.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Milton Nascimento', 'MPB', 'Courage', 24.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Milton Nascimento', 'MPB', 'Milton Nascimento', 25.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Milton Nascimento', 'MPB', 'Milton', 27.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Kenny G', 'CLASSIC', 'Kenny G', 23.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Kenny G', 'CLASSIC', 'G Force', 33.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Kenny G', 'CLASSIC', 'Gravity', 35.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Kenny G', 'CLASSIC', 'Duotones', 25.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Kenny G', 'CLASSIC', 'Silhouette', 15.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Kenny G', 'CLASSIC', 'Breathless', 23.00);
+INSERT INTO public.vinyl_discs(id, artist, genre, name, value) VALUES (nextval('public."vinyl_discs_id_seq"'), 'Kenny G', 'CLASSIC', 'The Moment', 28.00);
+
